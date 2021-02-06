@@ -1,0 +1,16 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.Write("Centuries = ");
+		int a = int.Parse(Console.ReadLine());
+		int b = a*100;
+		int c = (int)(b*365.2422);
+		int d = c*24;
+		int e = d*60;
+		if(a==1) Console.WriteLine(a+" century = "+b+" years = "+c+" days= "+d+" hours = "+e);
+		else Console.WriteLine(a+" centuries = "+b+" years = "+c+" days= "+d+" hours = "+e);
+	}
+}
