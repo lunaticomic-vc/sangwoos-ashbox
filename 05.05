@@ -1,0 +1,14 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int a = int.Parse(Console.ReadLine());
+		string t = Convert.ToString(a, 16);
+		string p= Convert.ToString(a, 2);
+		t = t.ToUpper();
+		Console.WriteLine(t);
+		Console.WriteLine(p);
+	}
+}
