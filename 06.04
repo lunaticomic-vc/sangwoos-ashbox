@@ -1,0 +1,17 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int a = int.Parse(Console.ReadLine());
+		int b = int.Parse(Console.ReadLine());
+		decimal c = (decimal)(Math.Sqrt(a*a+b*b));
+		int p = 2*(a+b);
+		int s = a*b;
+		Console.WriteLine(p);
+		Console.WriteLine(s);
+		Console.WriteLine(c);
+		
+	}
+}
