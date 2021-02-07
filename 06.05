@@ -1,0 +1,20 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		float a = float.Parse(Console.ReadLine());
+		float h = float.Parse(Console.ReadLine());
+		float m = float.Parse(Console.ReadLine());
+		float s = float.Parse(Console.ReadLine());
+		float b = a/(h*60*60+m*60+s);
+		float c = (a/1000)/(h+m/60+s/60/60);
+		float d = (a/1609)/(h+m/60+s/60/60);
+		Console.WriteLine(b);
+		Console.WriteLine(c);
+		Console.WriteLine(d);
+		
+		
+	}
+}
