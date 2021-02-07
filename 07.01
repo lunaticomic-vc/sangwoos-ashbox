@@ -1,0 +1,15 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int p = int.Parse(Console.ReadLine());
+		int c = int.Parse(Console.ReadLine());
+		if(p<c)Console.WriteLine(1);
+		else if (p%c==0)Console.WriteLine(p/c);
+		else Console.WriteLine(p/c+1);
+		
+		
+	}
+}
