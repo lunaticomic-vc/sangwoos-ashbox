@@ -1,0 +1,20 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int a = int.Parse(Console.ReadLine());
+		float b = float.Parse(Console.ReadLine());
+		float c, d, e, k = 0;
+		for (int i=0; i < a; i++)
+		{
+			c= int.Parse(Console.ReadLine());
+			d= int.Parse(Console.ReadLine());
+			e=c/d;
+			k+=e;
+		}
+		Console.WriteLine(Math.Round(k/b, 3));
+		
+	}
+}
